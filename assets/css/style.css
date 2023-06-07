@@ -90,8 +90,8 @@ header {
 }
 
 .challenge {
-    width: 900px;
-    padding-left: 13.4375rem;
+    width: 700px;
+    margin-left: 20%;
     font-size: 2.375rem;
     padding-bottom: 13.125rem;
 }
@@ -146,7 +146,7 @@ header {
 }
 
 .ready {
-    padding-left: 30rem;
+    margin-left: 40%;
     padding-bottom: 9.375rem;
     text-align: center;
 }
@@ -268,18 +268,20 @@ header {
 }
 
 .input {
-    text-align: center;
+    margin-left: 25%;
 }
 
 .input h2 {
     font-size: 1.75rem;
     margin-bottom: 20px;
+    margin-left: 14%;
 }
 
 .input p{
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 50px;
+    margin-left: 7%;
 }
 
 input {
@@ -301,7 +303,7 @@ input {
 .subscribe a{
     background-color: #FF3571;
     color: white;
-
+    margin-left: 18%;
     font-family: Arial;
     text-decoration: none;
     padding: 1.25rem 5rem;
@@ -310,7 +312,8 @@ input {
 }
 
 footer p {
-    margin-left: 130px;
+    /* margin-left: 130px; */
+    margin-left: 10%;
     font-size: 1.125rem;
     font-weight: 300;
 }
