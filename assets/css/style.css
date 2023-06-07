@@ -1,0 +1,312 @@
+
+@font-face {
+    font-family: Roboto Regular;
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto bold;
+    src: url(../font/Roboto/Roboto-Bold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto Regular;
+}
+
+header {
+    width: 100%;
+    background: right / contain no-repeat url(../img/ilustracion_people.png), right / contain no-repeat url(../img/ilustracion1.png);
+}
+
+.website_name {
+    padding-top: 2.5rem;
+    padding-left: 5.625rem;
+}
+
+.website_name h2 {
+    font-size: 1.5rem;
+}
+
+.website_name p{
+    font-size: 0.75rem;
+}
+
+.headline_content {
+    padding-top: 26.875rem;
+    padding-left: 9.0625rem;
+    width: 650px;
+}
+
+.headline_content h1 {
+    font-size: 3.375rem;
+    padding-bottom: 1.25rem;
+}
+
+.headline_content p{
+    font-size: 1.125rem;
+}
+
+.pink_scroll {
+    font-family: Roboto bold;
+    padding-top: 5rem;
+    padding-bottom: 8.125rem;
+    padding-left: 9.0625rem;
+    font-size: 0.875rem;
+    color: #FF3571;
+}
+
+.gallery_images {
+    padding-bottom: 18.75rem;
+}
+
+.gallery_images img {
+    width: 100vw;
+    height: 75vh;
+}
+.idea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10.9375rem;
+    padding-bottom: 12.8125rem;
+}
+
+.idea_headline {
+    font-size: 2.375rem;
+    font-weight: 600;
+    width: 300px;
+}
+
+.idea_content {
+    width: 620px;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.challenge {
+    width: 900px;
+    padding-left: 13.4375rem;
+    font-size: 2.375rem;
+    padding-bottom: 13.125rem;
+}
+
+.challenge_tasks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 6.25rem;
+}
+
+.challenge_tasks_2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 16.25rem;
+}
+
+.challenge_asking {
+    width: 350px;
+}
+
+.challenge_ideas {
+    width: 350px;
+}
+
+.challenge_love {
+    width: 350px;
+}
+
+.challenge_share {
+    width: 350px;
+}
+
+.tasks_headline{
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.tasks_content {
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    padding-left: 4.0625rem;
+}
+
+.tasks_img {
+    width: 32px;
+    height: 32px;
+    margin-right: 1.875rem;
+}
+
+.ready {
+    padding-left: 30rem;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.ready h2 {
+    width: 305px;
+    margin-left: 5.625rem;
+    margin-bottom: 1.5625rem;
+}
+
+.ready p {
+    width: 470px;
+}
+
+.start_the_challenge {
+    margin-left: 10%;
+}
+
+.problem {
+    width: 90%;
+    height: 50vh;
+    background: url(../img/step01.png) left / contain no-repeat;
+    margin-bottom: 15%;
+}
+
+.solution {
+    width: 90%;
+    height: 50vh;
+    background: url(../img/step02.png) right / contain no-repeat;
+    margin-bottom: 15%;
+}
+
+.proposal {
+    width: 90%;
+    height: 50vh;
+    background: url(../img/step03.png) left / contain no-repeat;
+    margin-bottom: 15%;
+}
+
+.workshare {
+    width: 90%;
+    height: 50vh;
+    background: url(../img/step04.png) right / contain no-repeat;
+    margin-bottom: 15%;
+}
+
+.number {
+    font-family: Roboto Regular;
+    font-size: 3.25rem;
+    color: #DDDDDD;
+    margin-bottom: 45px;
+}
+
+.emoji {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.start_the_challenge_headline {
+    font-size: 1.25rem;
+    font-family: Roboto bold;
+    margin-bottom: 25px;
+}
+
+.start_the_challenge_content {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+    width: 50%;
+}
+
+.problem
+.number {
+    margin-left: 640px;
+}
+
+.problem
+.emoji {
+    margin-left: 640px;
+}
+
+.problem
+.start_the_challenge_headline {
+    margin-left: 640px;
+}
+
+.problem
+.start_the_challenge_content {
+    margin-left: 640px;
+}
+
+.proposal
+.number {
+    margin-left: 640px;
+}
+
+.proposal
+.emoji {
+    margin-left: 640px;
+}
+
+.proposal
+.start_the_challenge_headline {
+    margin-left: 640px;
+}
+
+.proposal
+.start_the_challenge_content {
+    margin-left: 640px;
+}
+
+.input {
+    text-align: center;
+}
+
+.input h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+.input p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 600px;
+    height: 86px;
+    margin-bottom: 60px;
+    text-align: center;
+    border: none;
+    font-family: Arial;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px rgb(225, 225, 225);
+}
+
+.subscribe {
+    margin-bottom: 160px;
+}
+
+.subscribe a{
+    background-color: #FF3571;
+    color: white;
+
+    font-family: Arial;
+    text-decoration: none;
+    padding: 1.25rem 5rem;
+    font-size: 1.25rem;
+    border-radius: 4px;
+}
+
+footer p {
+    margin-left: 130px;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+footer img{
+    padding-left: 0.625rem;
+}
