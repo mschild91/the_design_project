@@ -221,42 +221,50 @@ header {
 
 .problem
 .number {
-    margin-left: 640px;
+    /* margin-left: 640px; */
+    margin-left: 55%;
 }
 
 .problem
 .emoji {
-    margin-left: 640px;
+    /* margin-left: 640px; */
+    margin-left: 55%;
 }
 
 .problem
 .start_the_challenge_headline {
-    margin-left: 640px;
+    /* margin-left: 640px; */
+    margin-left: 55%;
 }
 
 .problem
 .start_the_challenge_content {
-    margin-left: 640px;
+    /* margin-left: 640px; */
+    margin-left: 55%;
 }
 
 .proposal
 .number {
-    margin-left: 640px;
+    /* margin-left: 640px; */
+    margin-left: 55%;
 }
 
 .proposal
 .emoji {
-    margin-left: 640px;
+    /* margin-left: 640px; */
+    margin-left: 55%;
 }
 
 .proposal
 .start_the_challenge_headline {
-    margin-left: 640px;
+    /* margin-left: 640px; */
+    margin-left: 55%;
 }
 
 .proposal
 .start_the_challenge_content {
-    margin-left: 640px;
+    /* margin-left: 640px; */
+    margin-left: 55%;
 }
 
 .input {
