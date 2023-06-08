@@ -19,6 +19,8 @@ body {
     font-family: Roboto Regular;
 }
 
+
+
 header {
     width: 100%;
     background: right / contain no-repeat url(../img/ilustracion_people.png), right / contain no-repeat url(../img/ilustracion1.png);
@@ -161,36 +163,40 @@ header {
     width: 470px;
 }
 
-.start_the_challenge {
+/* .start_the_challenge {
     margin-left: 10%;
-}
+} */
 
 .problem {
-    width: 90%;
+    width: 85%;
     height: 50vh;
     background: url(../img/step01.png) left / contain no-repeat;
     margin-bottom: 15%;
+    margin-left: 5%;
 }
 
 .solution {
-    width: 90%;
+    width: 85%;
     height: 50vh;
     background: url(../img/step02.png) right / contain no-repeat;
     margin-bottom: 15%;
+    margin-left: 5%;
 }
 
 .proposal {
-    width: 90%;
+    width: 85%;
     height: 50vh;
     background: url(../img/step03.png) left / contain no-repeat;
     margin-bottom: 15%;
+    margin-left: 5%;
 }
 
 .workshare {
-    width: 90%;
+    width: 85%;
     height: 50vh;
     background: url(../img/step04.png) right / contain no-repeat;
     margin-bottom: 15%;
+    margin-left: 5%;
 }
 
 .number {
@@ -267,25 +273,36 @@ header {
     margin-left: 55%;
 }
 
-.input {
-    margin-left: 25%;
+.flexbox {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
 }
+
+.input {
+    height: 30vh;
+    width: 30%;
+    text-align: center;
+}
+
+/* /* .input {
+    margin-left: 25%;
+} */
 
 .input h2 {
     font-size: 1.75rem;
     margin-bottom: 20px;
-    margin-left: 14%;
 }
 
 .input p{
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 50px;
-    margin-left: 7%;
-}
+} 
 
 input {
-    width: 600px;
+    width: 400px;
     height: 86px;
     margin-bottom: 60px;
     text-align: center;
@@ -296,14 +313,9 @@ input {
     box-shadow: 1px 1px 20px rgb(225, 225, 225);
 }
 
-.subscribe {
-    margin-bottom: 160px;
-}
-
 .subscribe a{
     background-color: #FF3571;
     color: white;
-    margin-left: 18%;
     font-family: Arial;
     text-decoration: none;
     padding: 1.25rem 5rem;
